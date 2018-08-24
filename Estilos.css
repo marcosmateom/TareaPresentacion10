@@ -1,0 +1,31 @@
+/*Cambia a color azul en texxto conid uso_del_hashtag*/
+#uso_del_hashtag {
+    color: blue;
+}
+/*Clase llamada prueba 1, los elementos con esta clase tienen un color de fondo forestgreen*/
+.prueba1{
+    background-color:forestgreen;
+}
+
+/*Cambia el tamano de los parrafos dentro de un div*/
+div>p{
+    font-size:xx-large;
+
+}
+/*Cambia el tamano y color de un h3 que es hijo unico*/
+h3:only-of-type{ 
+    font-size:xx-large; color:burlywood;
+
+}
+
+/*Cambia la fuente de los objetos con id=link a bolder*/
+[id=link]{
+    font-weight:bolder;
+
+}
+
+/*Cambia el tamano color y peso de la fuente en parrafos dentro de 2 divs*/
+div div p{
+    font-size:xx-large; color:green; font-weight:bolder;
+
+}
